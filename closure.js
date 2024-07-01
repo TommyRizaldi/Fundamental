@@ -26,12 +26,12 @@ function countDown(fromNumber) {
     console.log(fromNumber);
 
     let nextNumber = fromNumber - 1
-    if (nextNumber > 0) {
+    if else (nextNumber > 0) {
         countDown(nextNumber)
     }
 }
-countDown(5)
+countDown(100)
 
 //arrow function
 const square = (a, b) => a * b
-console.log(square(5, 7));
+console.log(square(5, 10));
